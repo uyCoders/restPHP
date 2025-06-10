@@ -1,0 +1,17 @@
+{
+    "require": {
+        "firebase/php-jwt": "^6.0",
+        "monolog/monolog": "^2.0",
+        "vlucas/phpdotenv": "^5.0",
+        "respect/validation": "^2.0",
+        "php-http/guzzle7-adapter": "^1.0",
+        "nyholm/psr7": "^1.0",
+        "sendgrid/sendgrid": "~7",
+        "google/cloud-recaptcha-enterprise": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
